@@ -10,6 +10,15 @@ public class Array {
 
 	}
 	
+	public static void imprimir_array() {
+		int array[] = creaArrayNumerosAzar(10, 0, 100);
+		System.out.println("Contenido del array");
+		for (int i = 0; i < array.length; i++) {
+			System.out.print(array[i] + " ");
+		}
+
+	}
+	
 	public static void ordenamientoPorInsercion (int [] array) {
 //		int array[] = creaArrayNumerosAzar(10, 0, 100);
 //		mostrarArray(array);
