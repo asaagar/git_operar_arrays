@@ -7,6 +7,7 @@ public class Array {
 		int array[] = creaArrayNumerosAzar(10, 0, 100);
 		mostrarArray(array);
 		ordenamientoPorSeleccion(array);
+		sumar_array(array);
 
 	}
 	
@@ -17,6 +18,15 @@ public class Array {
 			System.out.print(array[i] + " ");
 		}
 
+	}
+	
+	public static void sumar_array(int [] array) {
+		int suma = 0;
+		for (int i = 0; i < array.length; i++) {
+			suma+=array[i];
+		}
+		System.out.println();
+		System.out.println("El resultado de la suma del array es de "+ suma);
 	}
 	
 	public static void ordenamientoPorInsercion (int [] array) {
