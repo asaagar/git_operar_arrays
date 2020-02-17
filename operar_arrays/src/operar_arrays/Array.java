@@ -8,7 +8,11 @@ public class Array {
 		mostrarArray(array);
 		ordenamientoPorSeleccion(array);
 		sumar_array(array);
+
 		nuevometodo1();
+
+		nuevometodo2();
+
 
 	}
 	
@@ -16,6 +20,12 @@ public class Array {
 		int numero = 1;
 		System.out.println();
 		System.out.println("Esta es la rama1 modificada " + numero + " vez.");
+	}
+
+	public static void nuevometodo2() {
+		System.out.println();
+		System.out.println("Esta es la rama2");
+
 	}
 	
 	public static void imprimir_array() {
