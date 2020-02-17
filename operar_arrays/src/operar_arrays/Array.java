@@ -13,8 +13,9 @@ public class Array {
 	}
 	
 	public static void nuevometodo1() {
+		int numero = 1;
 		System.out.println();
-		System.out.println("Esta es la rama1");
+		System.out.println("Esta es la rama1 modificada " + numero + " vez.");
 	}
 	
 	public static void imprimir_array() {
