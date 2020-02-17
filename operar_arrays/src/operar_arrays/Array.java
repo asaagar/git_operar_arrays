@@ -8,7 +8,13 @@ public class Array {
 		mostrarArray(array);
 		ordenamientoPorSeleccion(array);
 		sumar_array(array);
+		nuevometodo1();
 
+	}
+	
+	public static void nuevometodo1() {
+		System.out.println();
+		System.out.println("Esta es la rama1");
 	}
 	
 	public static void imprimir_array() {
